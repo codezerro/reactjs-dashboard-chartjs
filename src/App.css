@@ -1,0 +1,12 @@
+.logo-font{
+  font-family: 'Press Start 2P', cursive;
+  /* color: rgb(158, 231, 231); */
+  background: -webkit-linear-gradient(rgb(0, 158, 161), rgb(60, 143, 245));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background-image: linear-gradient(rgb(158, 231, 231), rgb(116, 171, 239)); */
+}
+.chart-w-h{
+  width:700px;
+  height:500px;
+}
