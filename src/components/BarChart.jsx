@@ -28,6 +28,7 @@ export const options = {
     title: {
       display: true,
       text: 'Chart.js Bar Chart',
+      color:'white'
     },
   },
   maintainAspectRatio: false,
@@ -57,7 +58,7 @@ const BarChart = () => {
   return (
     <div className=''>
       <div className=''>
-        <Bar options={options} data={data} height="400px" width="800px" />
+        <Bar options={options} data={data} height="300px" width="450px" />
       </div>
     </div>
     

@@ -13,6 +13,7 @@ export const options = {
     title: {
       display: true,
       text: 'Chart.js Bar Chart',
+      color:"white",
     },
   },
   maintainAspectRatio: true,
@@ -30,9 +31,12 @@ const PieChart = () => {
         // alignItems:'center',
         // height:'100vh',
         // width:'100vw',
+        // height:"300px", width:"300px" 
       }}
     >
-      <Pie data={Piedata2} options={options} height="400px" width="400px" />
+      <Pie data={Piedata2} options={options} 
+        height="300px" width="300px"
+      />
     </div>
   )
 }

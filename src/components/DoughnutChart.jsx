@@ -37,8 +37,8 @@ export const data = {
 
 const DoughnutChart = () => {
   return (
-    <div>
-      <Doughnut data={data} options={options} height="400px" width="600px"/>
+    <div className='flex justify-center items-center'>
+      <Doughnut data={data} options={options} height="300px" width="300px"/>
     </div>
   )
 }

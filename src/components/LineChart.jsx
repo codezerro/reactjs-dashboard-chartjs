@@ -30,6 +30,7 @@ export const options = {
     title: {
       display: true,
       text: 'Chart.js Line Chart',
+      color:'white'
     },
   },
 };
@@ -58,7 +59,7 @@ export const data = {
 const LineChart = () => {
   return (
     <div>
-      <Line options={options} data={data} width="1000px" height="500px" />
+      <Line options={options} data={data} width="450px" height="300px" />
     </div>
   )
 }

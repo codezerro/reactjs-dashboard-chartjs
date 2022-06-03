@@ -5,7 +5,9 @@ const Sidebar = () => {
   return (
     <>
       <div className='w-auto  text-center bg-secondary-dark-bg'>
-          <h1 className=' break-words whitespace-nowrap p-5 logo-font mb-10'>Demo Dashboard</h1>
+          <div className='break-words whitespace-nowrap p-5 logo-font mb-10'>
+            <NavLink to="/">Demo Dashboard</NavLink>
+          </div>
           <div className='flex flex-col'>
               <NavLink to="/pie"
                 className="p-1 ml-2 mr-2 mb-2"
