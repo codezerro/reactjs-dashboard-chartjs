@@ -8,9 +8,7 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <div className="flex w-full"
-          style={{ minHeight:"100vh" }}
-        >
+        <div className="flex w-full" style={{ minHeight:"100vh" }}>
             <Sidebar/>
             {/* bg-slate-800 */}
             <div className='w-full bg-main-dark-bg xh-screen'> 

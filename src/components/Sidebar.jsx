@@ -6,7 +6,7 @@ const Sidebar = () => {
     <>
       <div className='w-auto  text-center bg-secondary-dark-bg'>
           <div className='break-words whitespace-nowrap p-5 logo-font mb-10'>
-            <NavLink to="/">Demo Dashboard</NavLink>
+            <NavLink to="/">ChartJs Dashboard</NavLink>
           </div>
           <div className='flex flex-col'>
               <NavLink to="/pie"
