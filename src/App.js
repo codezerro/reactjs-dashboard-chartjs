@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 <Route path="/pie" element={(<PieChart/>)} />
-import {HomeChart,DoughnutChart,PieChart,BarChart,LineChart} from './components/index'
+import {HomeChart,DoughnutChart,PieChart,BarChart,LineChart,TestChart} from './components/index'
 import './App.css';
 
 const App = () => {
@@ -18,8 +18,7 @@ const App = () => {
                   <Route path="/bar" element={(<BarChart/>)} />
                   <Route path="/line" element={(<LineChart/>)} />
                   <Route path="/doughnut" element={(<DoughnutChart/>)} />
-                  
-                  
+                  <Route path="/test-chart" element={(<TestChart/>)} />
                 </Routes>
             </div>
         </div>
