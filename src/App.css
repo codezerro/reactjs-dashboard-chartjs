@@ -6,6 +6,22 @@
   font-family: myfont1;
   src: url('./test/SNAP.TTF');
 }
+@font-face {
+  font-family: myfont2;
+  src: url('./test/webdings.ttf');
+}
+@font-face {
+  font-family: myfont3;
+  src: url('./test/wingding.ttf');
+}
+@font-face {
+  font-family: myfont4;
+  src: url('./test/WINGDNG2.TTF');
+}
+@font-face {
+  font-family: myfont5;
+  src: url('./test/WINGDNG3.TTF');
+}
 
 .logo-font {
   font-family: 'Press Start 2P', cursive;

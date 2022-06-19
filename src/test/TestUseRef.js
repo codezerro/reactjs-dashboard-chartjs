@@ -84,6 +84,18 @@ const TestUseRef = () => {
         <option value={'myfont1'} key={'2'}>
           My Font 1
         </option>
+        <option value={'myfont2'} key={'3'}>
+          My Font 2
+        </option>
+        <option value={'myfont3'} key={'4'}>
+          My Font 3
+        </option>
+        <option value={'myfont4'} key={'5'}>
+          My Font 4
+        </option>
+        <option value={'myfont5'} key={'6'}>
+          My Font 5
+        </option>
       </select>
       <label htmlFor="vol">Volume {range}:</label>
       <input
