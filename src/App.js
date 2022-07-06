@@ -1,6 +1,7 @@
+import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import './App.css'
 import Sidebar from './components/Sidebar'
-;<Route path="/pie" element={<PieChart />} />
 import {
   HomeChart,
   DoughnutChart,
@@ -10,7 +11,6 @@ import {
   TestChart,
 } from './components/index'
 import { TestUseRef } from './test/index'
-import './App.css'
 
 const App = () => {
   return (

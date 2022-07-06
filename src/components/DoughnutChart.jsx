@@ -1,11 +1,11 @@
-import React from 'react';4
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { Doughnut } from 'react-chartjs-2';
+import React from 'react'
+import { Doughnut } from 'react-chartjs-2'
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
 
-ChartJS.register(ArcElement, Tooltip, Legend);
+ChartJS.register(ArcElement, Tooltip, Legend)
 
 const options = {
-  responsive:false,
+  responsive: false,
 }
 export const data = {
   labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
@@ -32,13 +32,12 @@ export const data = {
       borderWidth: 1,
     },
   ],
-};
-
+}
 
 const DoughnutChart = () => {
   return (
-    <div className='flex justify-center items-center'>
-      <Doughnut data={data} options={options} height="300px" width="300px"/>
+    <div className="flex justify-center items-center">
+      <Doughnut data={data} options={options} height="300px" width="300px" />
     </div>
   )
 }
